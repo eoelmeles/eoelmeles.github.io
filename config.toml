@@ -1,0 +1,29 @@
+baseURL = 'http://example.org/'
+languageCode = 'en'
+title = 'Eyoel'
+theme = 'hugo-book'
+
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.en]
+    title = 'Eyoel'
+    weight = 2
+    [languages.en.params]
+      linkedin = 'https://linkedin.com/'
+
+  [languages.am]
+    title = 'ኢዮኤል'
+	languageName = "አማርኛ"
+    weight = 3
+
+  [languages.cn]
+    title = '马伯文'
+	languageName = "中文"
+    weight = 4
+
+[params]
+	BookMenuBundle = '/menu'
+	BookTheme = 'dark'
+	BookSearch = true
+	BookServiceWorker = true # catching loaded pages
