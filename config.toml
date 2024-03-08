@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.eoelmeles.github.io/'
 languageCode = 'en'
-title = 'Eyoel'
+title = 'Eyoel Meles'
 theme = 'hugo-book'
 
 defaultContentLanguage = 'en'
