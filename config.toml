@@ -5,6 +5,7 @@ theme = 'hugo-book'
 
 defaultContentLanguage = 'en'
 
+
 [languages]
   [languages.en]
 		contentDir = 'content/en'
