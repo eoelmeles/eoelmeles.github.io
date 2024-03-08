@@ -1,4 +1,4 @@
-baseURL = 'https://www.eoelmeles.github.io/'
+baseURL = 'https://eoelmeles.github.io/'
 languageCode = 'en'
 title = 'Eoel Meles'
 theme = 'hugo-book'
