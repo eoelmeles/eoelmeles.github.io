@@ -1,29 +1,48 @@
 baseURL = 'https://www.eoelmeles.github.io/'
 languageCode = 'en'
-title = 'Eyoel Meles'
+title = 'Eoel Meles'
 theme = 'hugo-book'
 
 defaultContentLanguage = 'en'
 
 [languages]
   [languages.en]
-    title = 'Eyoel'
-    weight = 2
+		contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Eoel Meles'
+    weight = 1
     [languages.en.params]
+      subtitle = 'Free Bird'
       linkedin = 'https://linkedin.com/'
 
   [languages.am]
-    title = 'ኢዮኤል'
-	languageName = "አማርኛ"
+		contentDir = 'content/am'
+    disabled = false
+    languageCode = 'am-ET'
+    languageDirection = 'ltr'
+		languageName = "አማርኛ"
+    title = 'ኢዮኤል መለስ'
+    weight = 2
+    [languages.am.params]
+      linkedin = 'https://linkedin.com/'
+		
+  [languages.zh]
+		contentDir = 'content/zh'
+    disabled = false
+    languageCode = 'zh-CN'
+    languageDirection = 'ltr'
+		languageName = "中文"
+    title = '马博文'
     weight = 3
+    [languages.zh.params]
+      linkedin = 'https://linkedin.com/'
 
-  [languages.cn]
-    title = '马伯文'
-	languageName = "中文"
-    weight = 4
 
 [params]
 	BookMenuBundle = '/menu'
-	BookTheme = 'dark'
+	BookTheme = 'auto'
 	BookSearch = true
 	BookServiceWorker = true # catching loaded pages
