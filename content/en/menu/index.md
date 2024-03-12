@@ -23,6 +23,7 @@ headless: true
 
 - **Curation**
 - [State of Modern Architecture]({{< relref "/docs/shortcodes/state-of-modern-architecture" >}})
+- [YouTube]({{< relref "/docs/shortcodes/youtube" >}})
 
   <br />
   <br />
